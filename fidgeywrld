@@ -10,13 +10,13 @@ if _G.Enabled == true then
     local pos = Area.Position
 	hum.WalkSpeed = 75
 	hum:MoveTo(pos)
-	wait(2)
+	wait(3)
     while true do
     	wait()
     	local Area = game.Workspace:WaitForChild("FidgetArea")
     	local pos = Area.Position
     	hum:MoveTo(pos)
-    	wait(6)
+    	wait(2)
        	for i,v in pairs(PopIt.Frame.Frame.Frame.Pops:GetChildren()) do
     		absposx = v.AbsolutePosition.x + 20
     		absposy = v.AbsolutePosition.y + 80
