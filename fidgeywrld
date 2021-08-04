@@ -18,8 +18,8 @@ if _G.Enabled == true then
     	hum:MoveTo(pos)
     	wait(6)
        	for i,v in pairs(PopIt.Frame.Frame.Frame.Pops:GetChildren()) do
-    		absposx = v.AbsolutePosition.x + 15
-    		absposy = v.AbsolutePosition.y + 75
+    		absposx = v.AbsolutePosition.x + 20
+    		absposy = v.AbsolutePosition.y + 80
     		mousemoveabs(absposx, absposy)
     		wait(1)
     		mouse1click()
