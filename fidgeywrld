@@ -25,6 +25,6 @@ if _G.Enabled == true then
     		mouse1click()
     		wait()
        	end
-       	wait(2)
+       	wait(4)
 	end
 end
