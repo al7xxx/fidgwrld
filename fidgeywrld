@@ -10,7 +10,7 @@ if _G.Enabled == true then
     local pos = Area.Position
 	hum.WalkSpeed = 75
 	hum:MoveTo(pos)
-	wait(6)
+	wait(2)
     while true do
     	wait()
     	local Area = game.Workspace:WaitForChild("FidgetArea")
@@ -25,6 +25,6 @@ if _G.Enabled == true then
     		mouse1click()
     		wait()
        	end
-       	wait(6)
+       	wait(2)
 	end
 end
